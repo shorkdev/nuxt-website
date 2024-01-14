@@ -17,13 +17,10 @@ useHead({
 </script>
 
 <template>
-  <!-- <title>{{ route.path }}</title> -->
   <div
     class="bg-zinc-300 text-black dark:bg-zinc-950 dark:text-white transition-colors h-fit w-screen p-2"
   >
-    <!-- <NuxtLayout> -->
     <nav class="mb-1 pb-1 text-lg flex items-center">
-      <!-- mb-1 mx-2 pb-1 -->
       <NuxtLink to="/" class="link">home</NuxtLink>
       &#160;|&#160;
       <NuxtLink to="/blog" class="link">blog</NuxtLink>
@@ -45,10 +42,5 @@ useHead({
     </nav>
     <NuxtPage />
     <UNotifications />
-    <!-- <div
-        class="mx-2 h-[95vh] p-4 rounded-xl border-2 border-zinc-400 dark:border-zinc-800 bg-zinc-200 dark:bg-zinc-900"
-      >
-      </div> -->
-    <!-- </NuxtLayout> -->
   </div>
 </template>
