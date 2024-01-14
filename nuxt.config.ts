@@ -1,0 +1,56 @@
+// https://nuxt.com/docs/api/configuration/nuxt-config
+export default defineNuxtConfig({
+  devtools: { enabled: true },
+
+  devServer: {
+    port: 6969,
+  },
+  modules: ['@nuxt/ui', '@nuxt/content', '@nuxthq/studio', '@nuxt/image'],
+
+  content: {
+    documentDriven: true,
+    navigation: {
+      fields: ['navTitle'],
+    },
+    highlight: {
+      theme: {
+        default: 'rose-pine-dawn',
+        dark: 'rose-pine',
+      },
+      preload: [
+        'json',
+        'js',
+        'ts',
+        'html',
+        'css',
+        'vue',
+        'diff',
+        'shell',
+        'markdown',
+        'yaml',
+        'bash',
+        'ini',
+        'c',
+        'cpp',
+      ],
+    },
+  },
+
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
+
+  image: {
+    inject: true,
+  },
+
+  ui: {
+    global: true,
+    icons: ['tabler', 'material-symbols'],
+  },
+
+  css: ['/assets/css/main.css'],
+});
