@@ -1,5 +1,6 @@
 <script setup>
 const route = useRoute();
+const appConfig = useAppConfig();
 const colorMode = useColorMode();
 
 const isDark = computed({
