@@ -1,0 +1,1 @@
+import{_ as e,c as t,o,a as s}from"./entry.is6ZA6dz.js";const c={},a=s("h1",null,"the post page is not done yet. this is just a placeholder page.",-1),n=[a];function _(r,l){return o(),t("div",null,n)}const i=e(c,[["render",_]]);export{i as default};
