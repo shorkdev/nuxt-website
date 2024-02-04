@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as n,a as o}from"./entry.NvCQENbP.js";const s={},c=o("h1",null,"post page isn't dont yet.",-1),a=[c];function _(r,d){return n(),t("main",null,a)}const l=e(s,[["render",_]]);export{l as default};
