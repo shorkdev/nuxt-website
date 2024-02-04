@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .link {
-  @apply text-base transition-colors text-sky-500 dark:text-sky-400 hover:text-black dark:hover:text-white;
+  @apply text-base transition-colors text-sky-600 dark:text-sky-400 hover:text-black dark:hover:text-white;
 }
 
 body {
