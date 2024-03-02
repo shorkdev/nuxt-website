@@ -69,7 +69,7 @@
 <script setup>
 const toast = useToast();
 const xmraddress =
-  '4716ThYuPG6UWdsbqU96Xt7ui2uT18KahDLtZuppnqdBKUjju9JH9YY3WR73pHbgN6ZynZfsaTqzDPiqSNAGxancC8ShUwR';
+  '86XvLm6rnK6TcnVfq6ARmoKu4dNVZ87nCYBbNPkN3AaeUDYAoEQ1L6sgp81sicYG1j8WuD2nDRFKaaExQqYBKU3w3ECRQDf';
   
 const copyxmr = () => {
   navigator.clipboard.writeText(xmraddress)
