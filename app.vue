@@ -1,5 +1,6 @@
 <script setup>
 const route = useRoute();
+const toast = useToast();
 const appConfig = useAppConfig();
 const colorMode = useColorMode();
 

@@ -53,7 +53,26 @@
           icon="i-tabler-brand-github"
           url="https://github.com/shorkd3v"
         />
+        <UButton 
+          label="Donate (Monero)"
+          class="transition-colors"
+          trailing-icon="i-tabler-clipboard"
+          :ui="{ rounded: 'rounded-full' }"
+          variant="outline"
+          @click="copyxmr()"
+        />
       </div>
     </UCard>
   </div>
 </template>
+
+<script setup>
+const toast = useToast();
+const xmraddress =
+  '4716ThYuPG6UWdsbqU96Xt7ui2uT18KahDLtZuppnqdBKUjju9JH9YY3WR73pHbgN6ZynZfsaTqzDPiqSNAGxancC8ShUwR';
+  
+const copyxmr = () => {
+  navigator.clipboard.writeText(xmraddress)
+  toast.add({ title: 'Copied to clipboard', description: 'Copied address to clipboard!', icon: 'i-tabler-clipboard-check' })
+}
+</script>
