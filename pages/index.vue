@@ -9,12 +9,12 @@
               src="https://avatars.githubusercontent.com/u/111064437?v=4"
               class="w-auto h-64 rounded-lg"
             />
-            <p class="text-lg">_shork</p>
-            <p class="text-gray-500 dark:text-gray-400">@shork_dev</p>
+            <p class="text-lg">shorko</p>
+            <p class="text-gray-500 dark:text-gray-400">@shorko_owo</p>
           </div>
           <div> <!-- class="max-h-72 pr-4 overflow-scroll" -->
             <h2 class="font-bold">about me</h2>
-            <p class="text-lg">hi! i am shork, a web developer <br> 
+            <p class="text-lg">hi! i am shorko, a web developer <br> 
               <h4 class="font-semibold">languages i use:</h4> 
               <ul class="list-disc pl-4">
                 <li>HTML</li>
