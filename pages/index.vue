@@ -51,7 +51,7 @@
         <LinkBtn
           label="G I T H U B"
           icon="i-tabler-brand-github"
-          url="https://github.com/shorkd3v"
+          url="https://github.com/shorkdev"
         />
         <UButton 
           label="Donate (Monero)"
