@@ -24,8 +24,6 @@ useHead({
   >
     <nav class="mb-1 pb-1 text-lg flex items-center">
       <NuxtLink to="/" class="link">home</NuxtLink>
-      &#160;|&#160;
-      <NuxtLink to="https://shork.bearblog.dev/" class="link">blog</NuxtLink>
       &#160;|
       <ClientOnly>
         <UButton
