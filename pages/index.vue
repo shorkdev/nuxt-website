@@ -30,6 +30,8 @@
                     <li>TailwindCSS</li>
                     <li>Nuxt UI</li>
                     <li>Bootstrap</li>
+                    <li>Nuxt</li>
+                    <li>Astro</li>
                   </ul>
                 </li>
                 <li>
@@ -37,8 +39,6 @@
                   <ul class="list-disc pl-4">
                     <li>discord.js</li>
                     <li>express.js</li>
-                    <li>Nuxt</li>
-                    <li>Astro</li>
                   </ul>
                 </li>
               </ul>
